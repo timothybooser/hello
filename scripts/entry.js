@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import '../styles/main.scss';
+import App from './containers/App.js'
 
-
-const element = <h1>Hello, world</h1>;
 
 ReactDOM.render(
-  element,
+  <App />,
   document.getElementById('main')
 );

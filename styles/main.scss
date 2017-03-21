@@ -1,8 +1,25 @@
+@import 'styles/variables.scss';
+
+html{
+	background-color: $bg-color;
+}
+
 #main{
-	color: blue;
-	background-color: blue;
+	margin: 5px 5 10 10;
+	background-color: $bg-color;
+	font-family: $font-primary;
+	font-weight: 100;
+	min-height: 100%;
 
 	h1{
-		color: green;
+		color: $font-color;
+	}
+
+	.app{
+		width: 60%;
+		margin: 0 auto;
+		border: 1px solid #5d88cc;
+		height: 50%;
+		margin-top: 10%;
 	}
 }
